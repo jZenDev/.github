@@ -4,7 +4,7 @@
 
 ## **🎯 Motivation: Why DartZen?**
 
-In the vast landscape of application development, choosing the right foundation is crucial. While available solutions offer comprehensive full-stack Dart, and minimalist templates provide barebones starts, we recognized a unique gap: the need for a **simple, balanced, and opinionated core foundation** that embraces the full power of the **Google ecosystem**.
+In the vast landscape of application development, choosing the right foundation is crucial. While available solutions offer comprehensive full-stack Dart, and minimalist templates provide barebones starts, we recognized a unique gap: the need for a **simple, balanced, and opinionated core foundation** that embraces the full power of the **Google ecosystem** — without inheriting the hidden server-side execution pitfalls common to event-loop-based architectures.
 
 DartZen was created to eliminate the common friction points in Dart & Flutter development. We bridge the gap between overly simplistic "hello world" projects and overly complex, bloated frameworks. Our motivation is to provide developers with a ready-to-use, optimized foundation that encourages best practices, streamlines integration with Google's powerful cloud services, and allows teams to focus on delivering value, not boilerplate.
 
@@ -21,6 +21,7 @@ Our strategic decisions and development philosophy are guided by these core prin
 * **Zen Architecture:** A calm, pragmatic approach focused on clarity and maintainability. Our architecture is designed to be easily understood and maintained, minimizing cognitive load for developers.  
 * **"See With Your Eyes":** There's **zero magic** in DartZen. All components and integrations are explicit, making the codebase predictable and easy to debug. You'll always know exactly how things work under the hood.  
 * **Minimal Cognitive Load:** We strive to reduce the mental overhead for developers. Our conventions and structures aim to make common tasks intuitive, allowing you to focus on your application's unique features.  
+* **Deterministic Server Execution:** DartZen enforces a strict execution model where HTTP transport is fully decoupled from execution. Unlike traditional event-loop-based servers (Node.js and most Dart `shelf` setups), CPU-heavy and long-running operations never block request handling. Execution is isolate-based, explicit, and deterministic — with no shared state, no worker folklore, and no hidden magic.
 * **Package-Based Development:** Structuring the project into well-defined packages with clear responsibilities (via Melos). This ensures clear boundaries, better scalability, and independent testing of modules.
 * **Google Ecosystem First:** Embracing a deep, native integration with Dart, Flutter, Google Cloud Platform (GCP), and Firebase services. This ensures a unified, optimized, and powerful stack.  
 * **Accelerated Development:** Providing a ready-to-use foundation that significantly reduces setup time, allowing developers to focus on unique business logic from day one.
