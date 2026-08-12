@@ -1,6 +1,6 @@
 # **🚀 jZen: The Simple, Balanced Core Foundation for Flutter & Java**
 
-<img width="3200" height="420" alt="DartZen banner wide" src="https://github.com/user-attachments/assets/c3eacbaf-7316-4d5c-8999-0d8165dac514" />
+<img width="3200" height="420" alt="DartZen banner wide" src="https://github.com/user-attachments/assets/5d4d0ee0-0818-4aff-90be-308be192117e" />
 
 ## **🎯 Motivation: Why jZen?**
 
